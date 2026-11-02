@@ -1,4 +1,4 @@
-# audit-domains
+# audit.domains
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,135 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-audit-domains is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://audit.domains/
+audit.domains provides professional domain valuation and portfolio intelligence services. It offers sales‑calibrated appraisals, bulk appraisal, portfolio audit, domain analytics, and a certified accuracy model backed by a public methodology. Users can obtain single‑report certificates, explore market intelligence, and integrate the service via a documented API with OpenAPI specifications.
+
+**Areas:** Domain · Valuation · Analytics · Portfolio · API
+
+## audit.domains on APIs.io
+
+Everything profiled for audit.domains is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/audit-domains/](https://apis.io/providers/audit-domains/)** — or go straight to one of the APIs or properties below.
+
+### APIs (5)
+
+- [audit.domains Account API](https://apis.io/apis/audit-domains/audit-domains-account-api/) — Key usage and allowance
+- [audit.domains Appraisals API](https://apis.io/apis/audit-domains/audit-domains-appraisals-api/) — Deterministic valuations and comparable sales for one domain
+- [audit.domains Bulk API](https://apis.io/apis/audit-domains/audit-domains-bulk-api/) — Multi-domain appraisal with reserve-then-settle metering
+- [audit.domains Machine API](https://apis.io/apis/audit-domains/audit-domains-machine-api/) — The machine API from audit.domains — 1 operation(s) for machine.
+- [audit.domains Sales API](https://apis.io/apis/audit-domains/audit-domains-sales-api/) — Recorded domain sales search
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Audit Domains Agentic Access](https://apis.io/agentic-access/audit-domains/audit-domains-agentic-access/)
+
+#### JSON Schema (3)
+
+The data models the API reads and writes.
+
+- [Appraisal](https://apis.io/schemas/audit-domains/audit-domains-appraisal/)
+- [Comp](https://apis.io/schemas/audit-domains/audit-domains-comp/)
+- [SaleRecord](https://apis.io/schemas/audit-domains/audit-domains-sale-record/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Audit Domains Context](https://apis.io/jsonld/audit-domains/audit-domains-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [audit.domains API Rules](https://apis.io/rules/audit-domains/audit-domains-rules/)
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Audit Domains Authentication](https://apis.io/security/audit-domains/audit-domains-authentication/)
+- [Audit Domains Domain Security](https://apis.io/security/audit-domains/audit-domains-domain-security/)
+- [Audit Domains Vulnerability Disclosure](https://apis.io/security/audit-domains/audit-domains-vulnerability-disclosure/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [Audit Domains Scopes](https://apis.io/scopes/audit-domains/audit-domains-scopes/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://audit.domains/)
+- [Documentation](https://audit.domains/developers/)
+- [Getting started](https://audit.domains/developers/)
+- [API reference](https://audit.domains/developers/)
+- [Pricing](https://audit.domains/pricing/)
+- [Sign up](https://audit.domains/signup/)
+- [Support](https://audit.domains/contact/)
+- [Blog](https://audit.domains/blog/how-to-value-a-domain-name/)
+- [Security](https://audit.domains/terms)
+- [Terms of service](https://audit.domains/terms/)
+- [Privacy policy](https://audit.domains/privacy/)
+- [Status](https://audit.domains/status)
+
+## API Evangelist rating
+
+**Kin Score 59.9** — strong · rubric 0.26.0 · scored 2026-11-02
+
+| Facet | Score |
+|---|---|
+| Discoverability | 65.0 |
+| Contract quality | 60.1 |
+| Contract governance | 79.1 |
+| Operational transparency | 26.3 |
+| Developer ergonomics | 63.6 |
+| Access clarity | 44.7 |
+
+**Agent readiness 52.9** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | verified |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | verified |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | conformant |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | paginated |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 40.2** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/audit-domains/](https://apis.io/providers/audit-domains/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for audit.domains: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/audit-domains/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
